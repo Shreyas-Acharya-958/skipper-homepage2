@@ -1,0 +1,10 @@
+:root {
+    /* --austry-base: #ff4040; */
+    /* --austry-base: #2046b3; */
+    --austry-base: #144372;
+    --austry-base-rgb: 20, 67, 114;
+}
+
+.preloader__image {
+    background-image: url(../images/loader-4.png);
+}
