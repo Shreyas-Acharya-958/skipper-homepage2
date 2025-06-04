@@ -2933,6 +2933,46 @@ ul {
 /*--------------------------------------------------------------
 # Main Slider
 --------------------------------------------------------------*/
+.carousel-wrapper {
+  position: relative;
+  /* height: 90vh !important; */
+}
+
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+  z-index: 1;
+  pointer-events: none; /* allows buttons and slider below to remain clickable */
+}
+
+.carousel-inner,
+.carousel-item img {
+  position: relative;
+  z-index: 0;
+}
+
+.carousel-inner{
+  /* height: 85vh; */
+  height: 95vh;
+}
+
+.carousel-item{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner .carousel-item img{
+  /* height: 100%; */
+  width: 100%;
+  
+}
+
+
 .main-slider {
   position: relative;
   display: block;
